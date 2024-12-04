@@ -1,0 +1,36 @@
+.cw{
+    width: 810px;
+}
+
+.yellow{
+    border:2px solid yellow;
+}
+
+@media only screen and (max-width: 500px){
+    .cw {
+        width: 270px;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .cw {
+        width: 650px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .cw {
+        width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1350px){
+    .cw {
+        width: 980px;
+    }
+}
+@media only screen and (min-width: 1550px){
+    .cw {
+        width: 1230px;
+    }
+}
+

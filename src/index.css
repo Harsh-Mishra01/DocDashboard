@@ -1,0 +1,35 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.red{
+    border: 2px solid red;
+}
+
+.blue{
+    border: 2px solid blue;
+}
+
+.green{
+    border: 2px solid green;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: green; 
+    border-radius: 10px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
